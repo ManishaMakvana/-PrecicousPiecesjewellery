@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uder 999</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="under.css">
+    <script src="under.js"></script>
+</head>
+<body>
+    
+    <header>
+        <div id="head-top">
+            <div id="logo" class="border"></div>
+
+            <div class="dropdown  border">
+                <button class="dropdown-button">SHOP BY CATEGORY</button>
+                <div class="dropdown-content">
+                    <a href="earrings.html">Earrings</a>
+                    <a href="nosering.html">Nose Ring</a>
+                    <a href="necklaces.html">Necklace</a>
+                    <a href="watch.html">Watches</a>
+                    <a href="rings.html">Ring</a>
+                    <a href="bags.html">Bags</a>
+                   
+                </div>
+            </div>
+        
+            <div class="dropdown1 border">
+                <button class="dropdown-button1">SHOP BY LOOK </button>
+                <div class="dropdown-content1">
+                    <a href="gold_radiance.html">Gold Radiance</a>
+                    <a href="oxodise.html">Oxidised Jewels</a>
+                    <a href="diamond.html"> American Diamond</a>
+                    <a href="silver.html"> Silver</a>
+                    <a href="kundan.html">Kundan</a>
+                </div>
+            </div>
+
+
+            <div class="dropdown2 border">
+                <button class="dropdown-button2">SHOP BY PRICE</button>
+                <div class="dropdown-content2">
+                    <a href="#">Under 999</a>
+                    <a href="#">999-1499</a>
+                    <a href="#">1499-1999</a> 
+                    <a href="#">2000 & above</a>
+                </div>
+            </div>
+           <!-- list  -->
+            <div id="list" class="border">
+                <input placeholder="search items" id="search-input" class="border" >
+                <div class="search-icon ">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <script>document.getElementById('search-input').addEventListener('input', function() {
+                    let filter = this.value.toLowerCase();
+                    let sellers = document.querySelectorAll('.under');
+                
+                    sellers.forEach(function(seller) {
+                        let itemText = seller.querySelector('.under_p').textContent.toLowerCase();
+                        if (itemText.includes(filter)) {
+                            seller.style.display = '';
+                        } else {
+                            seller.style.display = 'none';
+                        }
+                    });
+                });</script>
+            </div>
+                <div class="account border">
+                    <a href="account.html"><i class="fa-regular fa-user" id="dropdown-content3"></i></a>
+                    
+                </div>
+                <div class="wise border">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="cart border">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            
+               
+    </header>
+
+
+
+<main>
+   
+    <div class="under-box ">
+        <div class=" under">
+            <div class="underp1"></div>
+            <p class="under_p">Nazakat Zoha Bracelet</p>
+            <div class="check">
+                <p class="line">₹899</p>
+            <p class="seller_per">599</p>
+            </div>
+            <div class="choice">
+                <a href="#"><Button class="btn1" >ADD TO CART</Button></a> 
+                <span class="whish"><i class="fa-solid fa-heart"></i></span>
+             </div> 
+        </div>
+    
+
+    
+        <div class="under">
+            <div class="underp2"></div>
+            <p class="under_p">Sparkling kundan rings</p>
+            <div class="check">
+                <p class="line">₹699</p>
+            <p class="seller_per">390</p>
+            </div>
+            <div class="choice">
+                <a href="#"><Button class="btn1" >ADD TO CART</Button></a> 
+                <span class="whish"><i class="fa-solid fa-heart"></i></span>
+             </div> 
+        </div>
+  
+
+        <div class="under">
+            <div class="underp3"></div>
+            <p class="under_p">Valentine's Day Red Heart Open Finger Ring</p>
+            <div class="check">
+                <p class="line">₹820</p>
+            <p class="seller_per">499</p>
+            </div>
+            <div class="choice">
+                <a href="#"><Button class="btn1" >ADD TO CART</Button></a> 
+                <span class="whish"><i class="fa-solid fa-heart"></i></span>
+             </div> 
+        </div>
+    
+
+    
+        <div class="under">
+            <div class="underp4"></div>
+            <p class="under_p">Motifs Open Style Necklace</p>
+            <div class="check">
+                <p class="line">₹6199</p>
+            <p class="seller_per">729</p>
+            </div>
+            <div class="choice">
+                <a href="#"><Button class="btn1" >ADD TO CART</Button></a> 
+                <span class="whish"><i class="fa-solid fa-heart"></i></span>
+             </div> 
+        </div> 
+    </div>
+
+
+    <div class="under-box ">
+        <div class=" under">
+            <div class="underp5"></div>
+            <p class="under_p">Nazakat Nazuk Pearl Drop Hoop</p>
+            <div class="check">
+                <p class="line">₹720</p>
+            <p class="seller_per">570</p>
+            </div>
+            <div class="choice">
+                <a href="#"><Button class="btn1" >ADD TO CART</Button></a> 
+                <span class="whish"><i class="fa-solid fa-heart"></i></span>
+             </div> 
+        </div>
+    
+
+    
+        <div class="under">
+            <div class="underp6"></div>
+            <p class="under_p">Sparkling Zoha Bracelet</p>
+            <div class="check">
+                <p class="line">₹615</p>
+            <p class="seller_per">420</p>
+            </div>
+            <div class="choice">
+                <a href="#"><Button class="btn1" >ADD TO CART</Button></a> 
+                <span class="whish"><i class="fa-solid fa-heart"></i></span>
+             </div> 
+        </div>
+  
+
+        <div class="under">
+            <div class="underp7"></div>
+            <p class="under_p">kundan necklace</p>
+            <div class="check">
+                <p class="line">₹590</p>
+            <p class="seller_per">450</p>
+            </div>
+            <div class="choice">
+                <a href="#"><Button class="btn1" >ADD TO CART</Button></a> 
+                <span class="whish"><i class="fa-solid fa-heart"></i></span>
+             </div> 
+        </div>
+    
+
+    
+        <div class="under">
+            <div class="underp8"></div>
+            <p class="under_p">Thumakda London Thumakda Cuff</p>
+            <div class="check">
+                <p class="line">₹1250</p>
+            <p class="seller_per">955</p>
+            </div>
+            <div class="choice">
+                <a href="#"><Button class="btn1" >ADD TO CART</Button></a> 
+                <span class="whish"><i class="fa-solid fa-heart"></i></span>
+             </div> 
+        </div> 
+    </div>
+
+    <div class="under-box ">
+        <div class=" under">
+            <div class="underp9"></div>
+            <p class="under_p">Elegance necklace</p>
+            <div class="check">
+                <p class="line">₹720</p>
+            <p class="seller_per">429</p>
+            </div>
+            <div class="choice">
+                <a href="#"><Button class="btn1" >ADD TO CART</Button></a> 
+                <span class="whish"><i class="fa-solid fa-heart"></i></span>
+             </div> 
+        </div>
+    
+
+    
+        <div class="under">
+            <div class="underp10"></div>
+            <p class="under_p">kundan manng tika</p>
+            <div class="check">
+                <p class="line">₹615</p>
+            <p class="seller_per">420</p>
+            </div>
+            <div class="choice">
+                <a href="#"><Button class="btn1" >ADD TO CART</Button></a> 
+                <span class="whish"><i class="fa-solid fa-heart"></i></span>
+             </div> 
+        </div>
+  
+
+        <div class="under">
+            <div class="underp11"></div>
+            <p class="under_p">Qasbah Haathi  Oxidised Two Tone Pendant</p>
+            <div class="check">
+                <p class="line">₹1100</p>
+            <p class="seller_per">990</p>
+            </div>
+            <div class="choice">
+                <a href="#"><Button class="btn1" >ADD TO CART</Button></a> 
+                <span class="whish"><i class="fa-solid fa-heart"></i></span>
+             </div> 
+        </div>
+    
+    
+        <div class="under">
+            <div class="underp12"></div>
+            <p class="under_p">Hawaii Monstera Statement Studs</p>
+            <div class="check">
+                <p class="line">₹799</p>
+            <p class="seller_per">549</p>
+            </div>
+            <div class="choice">
+                <a href="#"><Button class="btn1" >ADD TO CART</Button></a> 
+                <span class="whish"><i class="fa-solid fa-heart"></i></span>
+             </div> 
+        </div> 
+    </div>
+
+</main>
+
+<footer>
+    <div class="footer-box">
+        <div class="boxf">
+        <div class="boxf1" style="margin-top: 20px;">
+            <h2>Associate With Us</h2>
+            <ul>
+                <li>
+                    <a href="about.html"><span>About</span></a>
+                </li>
+
+                <li>
+                    <a href="contect.html"><span>Contact Us</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="boxf2" style="margin-top: 20px;">
+            <h2>Policy Matters</h2>
+            <ul>
+                <li>
+                    <a href="terms.html"><span>Terms of Use</span></a>
+                </li>
+
+                <li>
+                    <a href="privacy.html"><span> Privacy Policy</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="boxf3" style="margin-top: 20px;">
+            <ul>
+                <li>
+                    <span><i class="fa-brands fa-whatsapp"></i></span>
+                    <span>+91 72300 66751</span>
+                </li>
+
+                <li>
+                    <span><i class="fa-regular fa-envelope"></i></span>
+                    <span>help@voylla.com</span>
+                </li>
+                <li>
+                    <span>Gujarat, Gandhinage-382006</span> 
+                    <span>India</span>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
